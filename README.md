@@ -879,36 +879,6 @@ BaiduPCS-Go offlinedl delete 任务ID1 任务ID2 ...
 BaiduPCS-Go offlinedl delete -all
 ```
 
-#### 例子
-```
-# 将百度和腾讯主页, 离线下载到根目录 /
-BaiduPCS-Go offlinedl add -path=/ http://baidu.com http://qq.com
-
-# 添加磁力链接任务
-BaiduPCS-Go offlinedl add magnet:?xt=urn:btih:xxx
-
-# 查询任务ID为 12345 的离线下载任务状态
-BaiduPCS-Go offlinedl query 12345
-
-# 取消任务ID为 12345 的离线下载任务
-BaiduPCS-Go offlinedl cancel 12345
-```
-
-## 回收站
-```
-BaiduPCS-Go recycle
-```
-
-回收站操作.
-
-### 列出回收站文件列表
-```
-BaiduPCS-Go recycle list
-```
-
-#### 可选参数
-```
-  --page value  回收站文件列表页数 (default: 1)
 ```
 
 ### 还原回收站文件或目录
